@@ -1,3 +1,15 @@
+/*
+question:
+You have been given a linked list of integers. 
+Your task is to write a function that inserts 
+a node at a given position, 'pos'.
+
+INPUT:
+1
+3 4 5 2 6 1 9 -1
+3 100
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
