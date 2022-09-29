@@ -1,5 +1,5 @@
 #include <iostream>
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Node
@@ -13,8 +13,6 @@ public:
 		this->next = NULL;
 	}
 };
-
-
 
 Node *takeinput()
 {
@@ -50,41 +48,44 @@ void print(Node *head)
 	cout << endl;
 }
 
+int length(Node *head)
+{
+	Node *temp = head;
+	int cnt = 0;
 
-int length(Node* head){
-    Node* temp=head;
-    int cnt=0;
-    
-    while(temp != NULL){
-        temp=temp->next;
-        cnt++;
-    }
-    return cnt;
+	while (temp != NULL)
+	{
+		temp = temp->next;
+		cnt++;
+	}
+	return cnt;
 }
 
 Node *appendLastNToFirst(Node *head, int k)
 {
-   Node* newhead;
-    Node* newtail;
-    Node* temp=head;
-    int l=length(head);
-    
-    if(l<k || k==0) return head;
-    
-    //int k=k%l;
-    int cnt=1;
-    while(temp->next !=NULL){
-        if(cnt==l-k){
-            newtail=temp;
-            newhead = temp->next;
-        }
-        cnt++;
-        temp=temp->next;
-    }
-        newtail->next=NULL;
-        temp->next=head;
-        return newhead;
-    
+	Node *newhead;
+	Node *newtail;
+	Node *temp = head;
+	int l = length(head);
+
+	if (l < k || k == 0)
+		return head;
+
+	// int k=k%l;
+	int cnt = 1;
+	while (temp->next != NULL)
+	{
+		if (cnt == l - k)
+		{
+			newtail = temp;
+			newhead = temp->next;
+		}
+		cnt++;
+		temp = temp->next;
+	}
+	newtail->next = NULL;
+	temp->next = head;
+	return newhead;
 }
 
 int main()
