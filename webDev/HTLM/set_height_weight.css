@@ -1,0 +1,29 @@
+/* article {
+    width: 1000px;
+}
+
+p {
+    color: blue;
+}
+
+h1 {
+    height: 400px;
+}
+
+    */
+
+/* h4 {
+    text-transform: uppercase;
+} */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+#blog-desc {
+    color: blue;
+}

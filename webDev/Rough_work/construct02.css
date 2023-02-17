@@ -1,0 +1,10 @@
+#border {
+    border: dotted;
+    text-align: center;
+    border-width: 7px 13px;
+    /* border-bottom-left-radius: 60px; */
+    /* border-top-right-radius: 60px; */
+    width: 50%;
+    background-color: beige;
+    border-radius: 10px 40px;
+}

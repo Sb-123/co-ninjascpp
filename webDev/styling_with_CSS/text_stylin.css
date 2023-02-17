@@ -1,0 +1,8 @@
+#para-styling {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-decoration: red;
+}
