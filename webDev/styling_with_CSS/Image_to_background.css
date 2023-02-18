@@ -1,6 +1,6 @@
-#logo_image_continer {
-
-
+#logo-image-container {
+    height: 100vh;
+    width: 100vw;
     background-image: url("C:\Users\sb803\Co-ninjasCpp\webDev\styling_with_CSS\logo_switchtocode.png");
 
 }

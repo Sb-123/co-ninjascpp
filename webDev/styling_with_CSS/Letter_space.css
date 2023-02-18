@@ -1,0 +1,9 @@
+#para {
+    /* letter-spacing just do create space b/w letter
+    similer as letter-spacing there are some other attributes are also there like as 
+    word-spacing which create space b/w the words as you desire.
+    Both accept absolute and relative values.
+     */
+
+    letter-spacing: 10px;
+}
