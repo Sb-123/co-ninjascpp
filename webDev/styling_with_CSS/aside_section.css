@@ -1,0 +1,40 @@
+widget {
+    border-top: 4px solid black;
+}
+
+input {
+    display: block;
+}
+
+.widget input {
+    display: block;
+    background-color: #f7f7f7;
+    margin-bottom: 15px;
+    padding: 4px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+button[type="submit"] {
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#widget-title {
+    font-size: 1.5rem;
+}
+
+main {
+    width: 70%;
+    display: inline-block;
+
+}
+
+/* aside */
+aside {
+    width: 21%;
+    display: inline-block;
+    vertical-align: top;
+}
