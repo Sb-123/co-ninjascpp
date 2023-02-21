@@ -1,0 +1,17 @@
+#body-header {
+    opacity: 0.8;
+    height: 75vh;
+    min-height: 450px;
+    font-size: 1rem;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+#ul-body {
+    display: inline;
+
+}
