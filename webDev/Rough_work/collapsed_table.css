@@ -1,0 +1,13 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+} */
+table,th,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+th,td{
+    background-color: #96D4D4;
+}

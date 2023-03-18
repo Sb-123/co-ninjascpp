@@ -11,7 +11,50 @@
     color: white;
 }
 
-#ul-body {
+#body-header h1 {
+    text-align: center;
+}
+
+.horizontal-list {
+    text-align: center;
+    padding: 0;
+}
+
+.horizontal-list li {
     display: inline;
 
+}
+
+.horizontal-list li a {
+    text-decoration: none;
+    color: white;
+    word-spacing: 13px;
+    transition: color 5s, border-bottom 0.4s;
+}
+
+.nav-menu li a:hover {
+    color: orange;
+    border-bottom: solid;
+
+}
+
+.social-icons li a i {
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1rem;
+    /* box-shadow: 0px, 0px, 6px, 4px, red; */
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px, 0px, 6px, 4px, red;
+}
+
+
+#body-header h1 {
+
+    font-size: 30px;
+}
+
+.horizontal-center {
+    text-align: center;
 }
